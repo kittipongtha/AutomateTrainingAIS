@@ -1,0 +1,50 @@
+{"level":30,"time":"2023-03-24T07:56:34.401Z","pid":18944,"hostname":"NBAAC2010109","msg":"Listening on 3362"}
+{"level":30,"time":"2023-03-24T07:56:34.513Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-24T07:56:34.514Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-24T07:56:34.547Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-24T07:56:34.548Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-24T07:56:34.557Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-03-24T07:56:40.450Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-03-24T07:56:40.457Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-03-24T07:56:40.457Z","pid":18944,"hostname":"NBAAC2010109","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-03-24T07:56:40.458Z","pid":18944,"hostname":"NBAAC2010109","msg":"Trace file: "}
+{"level":30,"time":"2023-03-24T07:56:40.501Z","pid":18944,"hostname":"NBAAC2010109","msg":"Changed active context"}
+{"level":30,"time":"2023-03-24T07:56:40.502Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method newContext"}
+{"level":30,"time":"2023-03-24T07:56:40.508Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-03-24T07:56:40.508Z","pid":18944,"hostname":"NBAAC2010109","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-03-24T07:56:42.162Z","pid":18944,"hostname":"NBAAC2010109","msg":"Video path: undefined"}
+{"level":30,"time":"2023-03-24T07:56:42.163Z","pid":18944,"hostname":"NBAAC2010109","msg":"Changed active page"}
+{"level":30,"time":"2023-03-24T07:56:43.669Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method newPage"}
+{"level":30,"time":"2023-03-24T07:56:43.676Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2023-03-24T07:56:43.700Z","pid":18944,"hostname":"NBAAC2010109","msg":"Removed page=9a1f1690-504e-4dcf-8cc3-b656e60abf4d from context=8bd9b59c-4dce-4ddb-92be-f5d16783ec07 page stack"}
+{"level":30,"time":"2023-03-24T07:56:44.054Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\tools\Python\Lib\site-packages\Browser\wrapper\index.js:9406:15)
+    at PlaywrightServer.getActiveBrowser (C:\tools\Python\Lib\site-packages\Browser\wrapper\index.js:9952:59)
+    at PlaywrightServer.setTimeout (C:\tools\Python\Lib\site-packages\Browser\wrapper\index.js:10197:69)
+    at C:\tools\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\tools\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\tools\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-03-24T07:56:44.062Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-24T07:56:44.062Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\tools\Python\Lib\site-packages\Browser\wrapper\index.js:9406:15)
+    at PlaywrightServer.getActiveBrowser (C:\tools\Python\Lib\site-packages\Browser\wrapper\index.js:9952:59)
+    at PlaywrightServer.setTimeout (C:\tools\Python\Lib\site-packages\Browser\wrapper\index.js:10197:69)
+    at C:\tools\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:821:17
+    at Http2ServerCallStream.safeDeserializeMessage (C:\tools\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:395:13)
+    at ServerHttp2Stream.onEnd (C:\tools\Python\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-call.js:382:22)
+    at ServerHttp2Stream.emit (node:events:525:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+=============================================================
+{"level":30,"time":"2023-03-24T07:56:44.067Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-24T07:56:44.067Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-03-24T07:56:45.054Z","pid":18944,"hostname":"NBAAC2010109","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-03-24T07:56:45.054Z","pid":18944,"hostname":"NBAAC2010109","msg":"End of node method closeAllBrowsers"}
